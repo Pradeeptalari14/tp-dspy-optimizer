@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dspy-optimizer-service
+  namespace: promptops
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dspy-optimizer
+  template:
+    metadata:
+      labels:
+        app: dspy-optimizer
+    spec:
+      containers:
+        - name: dspy-worker
+          image: python:3.11-slim
+          command: ["python", "dspy_compiler.py"]
+          resources:
+            limits:
+              cpu: "2"
+              memory: 4Gi
+            requests:
+              cpu: "500m"
+              memory: 1Gi

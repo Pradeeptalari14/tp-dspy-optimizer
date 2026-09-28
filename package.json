@@ -1,0 +1,12 @@
+{
+  "name": "tp-dspy-optimizer",
+  "version": "1.0.0",
+  "description": "Stanford DSPy MIPROv2 algorithmic prompt optimization and teleprompter compilation engine",
+  "main": "signature_evaluator.ts",
+  "scripts": {
+    "test": "bash scripts/validate.sh"
+  },
+  "keywords": ["dspy", "mipro", "prompt-optimization", "teleprompter", "bayesian", "sre"],
+  "author": "Talari Pradeep <talaripradeep14@gmail.com>",
+  "license": "MIT"
+}

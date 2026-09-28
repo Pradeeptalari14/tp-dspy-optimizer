@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  dspy-optimizer:
+    image: python:3.11-slim
+    container_name: dspy-compiler-service
+    command: python dspy_compiler.py
+    volumes:
+      - ./:/app
+    working_dir: /app
+    environment:
+      - DSPY_MAX_BOOTSTRAP_DEMOS=4
+      - DSPY_NUM_CANDIDATE_PROGRAMS=16
+    restart: unless-stopped
