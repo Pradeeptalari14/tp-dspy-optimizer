@@ -1,3 +1,6 @@
+[![Ecosystem](https://img.shields.io/badge/Portfolio%20Ecosystem-341%20Studios-6366f1.svg)](https://pradeeptalari.me/projects/)
+[![Architecture DAG](https://img.shields.io/badge/Architecture-DAG%20%26%20Course-10b981.svg)](https://pradeeptalari.me/tools/repo-learning/)
+
 # DSPy Algorithmic Prompt Optimizer (MIPROv2) Studio
 
 [![CI SRE Validation](https://github.com/Pradeeptalari14/tp-dspy-optimizer/actions/workflows/sre-validation.yml/badge.svg)](https://github.com/Pradeeptalari14/tp-dspy-optimizer/actions)
@@ -20,3 +23,6 @@ git clone https://github.com/Pradeeptalari14/tp-dspy-optimizer.git
 cd tp-dspy-optimizer
 bash scripts/validate.sh
 ```
+
+---
+*Synchronized with [DSPy Algorithmic Prompt Optimizer (MIPROv2) Studio Studio](https://pradeeptalari.me/tools/dspy-optimizer/) & [Repository Learning DAG](https://pradeeptalari.me/tools/repo-learning/) — [Talari Pradeep Portfolio](https://pradeeptalari.me)*
